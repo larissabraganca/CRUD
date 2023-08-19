@@ -1,0 +1,94 @@
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fundo-cabecalho: blueviolet;
+    --cor-letra: #ffff;
+    --cor-botao-hover: #7af867;
+    --cor-remove-hover: #e91212;
+    --fonte-sans: 'PT Sans', sans-serif;
+    --fonte-ubuntu: 'Ubuntu', sans-serif;
+}
+.cabecalho{
+    background-color: var(--fundo-cabecalho);
+    color: var(--cor-letra);
+    padding: 1em;
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--fonte-ubuntu);
+}
+
+.entrada{
+    padding-left: 1em;
+}
+.selecoes{
+    margin-top: 2em;
+    border:solid 1px;
+    border-radius:5px;
+    padding:0.2em;
+    width: 140px;
+}
+.email{
+    width: 165px;
+}
+
+.tel{
+    width: 100px;
+}
+.telf{
+    width: 120px;
+}
+.botao{
+    border:solid 1px;
+    border-radius:5px;
+    padding:0.2em;
+    width: 15%;
+    font-family: var(--fonte-ubuntu);
+}
+.botao:hover{
+    background-color: var(--cor-botao-hover);
+    color: var(--cor-letra);
+    cursor: pointer;
+}
+.tabela{
+    background-color: rgb(233, 233, 233);
+    margin-top: 2em;
+}
+.id{
+    width:50px;
+}
+.nome{
+    width: 170px;
+}
+.name{
+    width: 165px;
+}
+.cabecalho_tabela{
+    color: var(--cor-letra);
+    font-family: var(--fonte-ubuntu);
+    font-size: 12px;
+    background-color: var(--fundo-cabecalho);
+}
+
+.remover{
+    font-size: 10px;
+    margin: 2px;
+    border:solid 1px;
+    border-radius:5px;
+    width: 80%;
+    margin: 1em;
+    text-align: center;
+    font-family: var(--fonte-ubuntu);
+}
+.remover:hover{
+    background-color: var(--cor-remove-hover);
+    color: var(--cor-letra);
+}
+
+
+/*<td class="remove"><button class="botao_segundo">Remover</button></td>

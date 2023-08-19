@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="cabecalho"><b>Computer Science Master</b></h1>
+    <div class="entrada">
+        <form>
+            <div>
+                <input class="selecoes name" type="text" name="input" placeholder="Nome" id="nome" required />
+                <input class="selecoes email" type="email" name="input" placeholder="Email" id="email" required />
+                <input class="selecoes tel" type="tel" name="input" placeholder="Telefone" id="telefone" required />
+                <input class="selecoes" type="text" name="input" placeholder="Profissão" id="profissao" required />
+                <input class="botao" type="submit" value="Enviar" id="botao" onclick="return addTabela()" />
+            </div>
+        </form>
+        <table border="1" bordercolor="white" class="tabela" id="table">
+            <tr>
+                <th class="cabecalho_tabela id">ID</th>
+                <th class="cabecalho_tabela nome">Nome</th>
+                <th class="cabecalho_tabela email">Email</th>
+                <th class="cabecalho_tabela telf">Telefone</th>
+                <th class="cabecalho_tabela tel">Profissão</th>
+                <th class="cabecalho_tabela tel">Ação</th>
+            </tr>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
